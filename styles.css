@@ -1,0 +1,376 @@
+@font-face {
+  font-family: "Muller";
+  src: url(fonts/Muller.otf);
+  font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+  font-family: "MullerRegular";
+  src: url(fonts/MullerRegular.otf);
+  font-style: normal;
+	font-weight: normal bold;
+}
+@font-face {
+  font-family: "MullerBold";
+  src: url(fonts/MullerBold.otf);
+  font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+  font-family:"MullerMedium";
+  src: url(fonts/MullerMedium.otf);
+  font-style: normal;
+	font-weight: medium;
+}
+@font-face {
+  font-family: "VCFLight";
+  src: url(fonts/VCFLight.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "VisbyCFHeavy";
+  src: url(fonts/VisbyCFHeavy.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+html {
+  height: 1080px;
+  width: 1920px;
+}
+a {
+  text-decoration: none;
+}
+.rect {
+  height: 105px;
+  width: 208px;
+  background-color: white;
+  border-radius: 20px;
+  transform: rotate(-8deg);
+  margin-top:-35px;
+  margin-left: 178px;
+}
+.logo_text {
+  padding-top: 19px;
+  padding-left: 22px;
+}
+.header {
+  background: linear-gradient(to top, #63c9c4, #fff3bc);
+  height: 1080px;
+  width: 1920px;
+  margin-left: -10px;
+  position: relative;
+}
+.swoosh {
+  top:0;
+  left:1311px;
+  position:absolute;
+}
+.swoosh22 {
+  top:94;
+  left:755px;
+  position:absolute;
+}
+.swoosh33 {
+  top:723px;
+  left:944px;
+  position:absolute;
+}
+.swoosh44 {
+  top:0px;
+  left:1521px;
+  position:absolute;
+}
+.magnet {
+  top:410px;
+  right:0;
+  left: 1413px;
+  position:absolute;
+}
+.electricity {
+  top:395px;
+  right:0;
+  left: 1545px;
+  position:absolute;
+}
+.electricity2 {
+  top:548px;
+  right:0;
+  left: 1340px;
+  position:absolute;
+}
+.electricity3 {
+  top:623px;
+  right:0;
+  height: 50px;
+  width: 55px;
+  left: 1315px;
+  position:absolute;
+}
+.vector {
+  top:517px;
+  right:0;
+  left: 1430px;
+  position:absolute;
+}
+.flash_1 {
+  top:596px;
+  right:0;
+  left: 1420px;
+  position:absolute;
+}
+.flash_31 {
+  top:365px;
+  right:0;
+  left: 1650px;
+  position:absolute;
+}
+.flash_32 {
+  top:353px;
+  right:0;
+  left: 1609px;
+  position:absolute;
+}
+.flash_2 {
+  top:291px;
+  right:0;
+  left: 1650px;
+  position:absolute;
+}
+.man1 {
+  top: 587px;
+  right:0;
+  left: 1212px;
+  position:absolute;
+}
+.man2 {
+  top: 525px;
+  right:0;
+  left: 1200px;
+  position:absolute;
+}
+.man3 {
+  top: 425px;
+  right:0;
+  left: 1182px;
+  position:absolute;
+}
+.man4 {
+  top: 410px;
+  right:0;
+  left: 1253px;
+  position:absolute;
+}
+.man5 {
+  top: 333px;
+  right:0;
+  left: 1281px;
+  position:absolute;
+}
+.man6 {
+  top: 370px;
+  right:0;
+  left: 1341px;
+  position:absolute;
+}
+.man7 {
+  top: 280px;
+  right:0;
+  left: 1414px;
+  position:absolute;
+}
+.man8 {
+  top: 203px;
+  right:0;
+  left: 1511px;
+  position:absolute;
+}
+.man9 {
+  top: 171px;
+  right:0;
+  left: 1554px;
+  position:absolute;
+}
+.man10 {
+  top: 277px;
+  right:0;
+  left: 1498px;
+  position:absolute;
+}
+.man11 {
+  top: 192px;
+  right:0;
+  left: 1620px;
+  position:absolute;
+}
+.man13 {
+  top: 294px;
+  right:0;
+  left: 888px;
+  position:absolute;
+}
+.man14 {
+  top: 18px;
+  right:0;
+  left: 1421px;
+  position:absolute;
+}
+.swoosh {
+  left: 1113px;
+}
+.title1 {
+  font-family: "MullerBold";
+  font-size: 27px;
+  color: #5d9e9a;
+  padding-top: 140px;
+  padding-left: 163px;
+}
+.title_main {
+  font-family: "MullerRegular";
+  font-size: 46px;
+  padding-top:51px;
+  padding-left: 163px;
+  margin-top: -80px;
+}
+.container_w_data {
+  width: 825px;
+  height: 215px;
+  background: #ffffff;
+  margin-top: 80px;
+  padding-top: 50px;
+  text-align: center;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 120px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 120px;
+  }
+.data {
+  font-family: "MullerMedium";
+  font-size: 20px;
+  color:#ff8141;
+}
+.reg_block {
+  text-align:center;
+  padding-left: 190px;
+}
+.bottom {
+  font-family: "MullerBold";
+  font-size: 26px;
+  height: 65px;
+  width: 495;
+  background-color: #ff8141;
+  border-radius: 60px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+}
+.scroll {
+  text-align: center;
+  color: white;
+  margin-top: 45px;
+}
+.s_down {
+  font-family: "VisbyCFHeavy";
+  height: 34px;
+  text-transform: uppercase;
+}
+.scroll_img{
+  height: 43px;
+  width: 64px;
+  margin-top: 12px;
+  position: absolute;
+}
+.block_total {
+  height: 915px;
+  width: 100%;
+}
+.big_photo {
+  width:1000px;
+  float: left;
+  margin-left: -10px;
+  position: relative;
+  }
+.play {
+  height: 182px;
+  width: 182px;
+  border-radius: 50%;
+  background-color: #592e15;
+  opacity: 0.8;
+  position: absolute;
+  top: 382px;
+  left: 449px ;
+}
+.play1 {
+  position: absolute;
+  top: 447px;
+  left: 525px ;
+}
+.arrow {
+  position: absolute;
+  top: 526px;
+  left: 587px;
+}
+.arrow_txt {
+  position: absolute;
+  top: 600px;
+  left: 702px;
+  font-family: 'Poor Story', cursive;
+  font-size: 30px;
+  transform: rotate(16deg);
+}
+.block_text {
+  width: 836px;
+  float: right;
+  background-color: white;
+  margin-left: -5px;
+  background-color: #ffffff;
+}
+.block_h {
+  font-family: "VFCLight";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #3a4a62;
+  margin-top: 130px;
+  margin-left: 130px;
+}
+.ul {
+  font-family: "Muller";
+  font-size: 27px;
+  margin-top: 48px;
+  margin-left: 110px;
+  list-style-image: url(img/li.png);
+  color: #575656;
+}
+.li2 {
+  list-style-image: url(img/li2.png);
+  color: #575656;
+}
+.reg_block2 {
+  text-align:center;
+  padding-top: 87px;
+  padding-left: 126px;
+}
+.bottom2 {
+  font-family: "MullerBold";
+  font-size: 26px;
+  height: 65px;
+  width: 495;
+  background-color: #ff8141;
+  border-radius: 60px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+}
+.footer {
+  height: 205px;
+  margin-top:59px;
+  margin-left: -10px;
+  background-color: #273d50;
+  font-family: "MullerBold";
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 95px;
+}
